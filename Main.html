@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Graphics Game</title>
+  <link rel="stylesheet" href="game.css">
+</head>
+<body>
+  
+  <div class="canvas-container">
+    <h1>Defend the Void</h1>
+    <p>Move the glowing orb to bounce the polygon. Destroy the falling red monsters for points! Don't let the polygon fall</p>
+    <canvas id="gameCanvas" width="700" height="500"></canvas>
+    <div id="ui-layer">
+      <button id="restartBtn" style="display: none;" onclick="resetGame()">Restart Game</button>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
